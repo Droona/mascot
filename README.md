@@ -1,20 +1,6 @@
 # Cheering Mascot
 
-##Summary
-
-In this challenge we'll model some behavior based on a handful of rules, which will be explained to you.  We will be writing Ruby, employing and building on the skills that we've already developed.
-
-The main focus of this challenge is flow control.  For example, we will need to determine how to control how long our program runs.  And, our program will behave differently under one condition than it will under another.  We'll be using these same techniques to write more complex algorithms throughout Dev Bootcamp.
-
-In addition to flow control, we'll need to handle user interaction.  We'll have to get input from users and also display text back to the user.  Furthermore we're going to practice writing small methods, each of which does one thing.
-
-The following resources might be helpful to you.
-
-- [intro to getting user input](http://ruby-doc.org/docs/Tutorial/part_02/user_input.html)
-- [displaying text: puts vs print](http://www.codecademy.com/glossary/ruby/puts-vs-print)
-- [case statements](http://www.skorks.com/2009/08/how-a-ruby-case-statement-works-and-what-you-can-do-with-it/)
-- [loops](http://www.tutorialspoint.com/ruby/ruby_loops.htm)
-
+###Summary
 
 ### Rules
 We are leading some cheers, and we have a mascot helping us by holding up signs that correspond to our cheers.  Here are the rules for how the mascot behaves.  While these rules might feel a little arbitrary, we are practicing writing to specifications.
@@ -68,18 +54,5 @@ To begin cheering, run `ruby runner.rb`.
 
 ### Release 2: Changing Specifications
 
-- The cheering ends if no cheer is called out two times in a row.
-
-The rules have changed.  We now need a second way to end a conversation (i.e., exit the program).  Users can end the conversation by not calling for another cheer.
-
 Update the `coordinate_cheers` method to model this behavior: when prompted to call out a cheer, entering an empty string *twice in a row* causes the program to exit.
-
-
-## Conclusion
-
-We wrote a small program that conforms to a set of prescribed specifications.  Writing code to match specifications is a skill, and we'll be practicing it going forward.
-
-In order to get the specified functionality, we had to control the flow of our application, causing it to behave appropriately under different conditions.  In addition, we combined the behaviors of small methods to create a more complex behavior.  We'll want to continue that going forward.
-
-Finally, before moving on, read through your code.  Is your code easy for humans to read?  Are your variable names descriptive of their values?  Does your indentation conform to Ruby conventions?  Could another of your cohort mates read through your code and know what each line does?
 
