@@ -21,7 +21,7 @@ def mascot_sign_for(input)
 	end
 end
 
-# Print the argument passed to the method
+
 def display(response)
 	p response
 end
