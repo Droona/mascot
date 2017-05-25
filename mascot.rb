@@ -29,5 +29,11 @@ end
 # This method will control the flow of the application,
 # making use of the other three methods.
 def coordinate_cheers
-	display(mascot_sign_for(call_out_cheer))
+  response = call_out_cheer
+  counter = response == "" ? 1 : 0
+  until response == "GAME OVER" || counter >= 2
+    display (mascot_sign_for(response))
+    response = call_out_cheer
+    response == "" ? counter+= 1 : counter = 0
+  end
 end
